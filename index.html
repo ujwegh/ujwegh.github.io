@@ -1,6 +1,6 @@
-<script>
-if (window.location.href.indexOf("servicedesk/secure/editFields!save.jspa")  &gt; -1 || 
-window.location.href.indexOf("servicedesk/editFields!save.jspa")  &gt; -1) {
+<script type="text/javascript">
+if (window.location.href.indexOf("servicedesk/secure/editFields!save.jspa")  > -1 || 
+window.location.href.indexOf("servicedesk/editFields!save.jspa")  > -1) {
     var myFlag = AJS.flag({
         type: 'success',
         body: 'Your information has been saved!',
@@ -9,7 +9,8 @@ window.location.href.indexOf("servicedesk/editFields!save.jspa")  &gt; -1) {
 	function ddd() {
         myFlag.close();
     }
-
     setTimeout(ddd, 2000);
-}
+}      
 </script>
+
+
